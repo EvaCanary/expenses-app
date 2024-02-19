@@ -36,7 +36,10 @@
 .expense-btn:hover {
     background-color: #ffba60;
 }
-.history {
+.history-title {
+    color: #FFFFFF;
+}
+li {
     color: #FFFFFF;
 }
 h1 {

@@ -17,7 +17,7 @@ console.log(inputNode.value);
 // 2. сохраняем трату в список
  expenses.push(expense);
 // 3. выводим новый список трат
-const html = '<ol><li>expense</li></ol>';
+const html = `<ol><li>${expense}</li></ol>`;
 historyNode.innerHTML = html;
 });
 

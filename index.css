@@ -52,3 +52,9 @@ h1 {
 p {
     color: #FFFFFF;
 }
+.status_blue {
+  color: rgb(54, 161, 255);
+}
+.status_red {
+    color: rgb(206, 0, 0);
+}

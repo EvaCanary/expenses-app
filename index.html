@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./reset.css" />
+    <!-- <link rel="stylesheet" href="./reset.css" /> -->
     <link rel="stylesheet" href="./index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,13 +18,14 @@
     <div class="row">
       <div class="col">
         <input class="js-input expense-input" type="number" />
-        <p>Лимит:</p>
-        <p>Всего:</p>
-        <p>Статус:</p>
+
+        <p>Лимит: <span class="js-limit">10000</span></p>
+        <p>Сумма: <span class="js-sum">0</span></p>
+        <p>Статус: <span class="js-status status">все хорошо</span></p>
       </div>
       <div class="col">
         <button class="js-button expense-btn">Добавить</button>
-        <h2 class="history-title">История:</h2>
+        <h2>История:</h2>
         <div class="js-history"></div>
       </div>
     </div>
